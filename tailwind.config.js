@@ -13,7 +13,10 @@ module.exports = {
         veryDarkViolet: 'hsl(260, 8%, 14%)'
       },
       fontFamily: {
-        sans: ['Poppins', ]
+        sans: ['Poppins', 'sans-serif']
+      },
+      spacing: {
+        180: '32rem'
       }
     },
   },
