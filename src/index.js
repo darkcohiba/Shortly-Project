@@ -8,7 +8,7 @@ linkForm.addEventListener('submit', formSubmit)
 
 function formSubmit(e){
     e.preventDefault()
-
+    
     if (input.value === ""){
         errMsg.textContent = "Field cannot be empty"
         input.classList.add('border-red')
